@@ -1,6 +1,6 @@
 # SSAFY_Gwangju5B_Algorithm
 
-| First Header  | Second Header |
+| 날짜          |   알고리즘     |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 7월 4주차  | 정렬  |
+|       ?  | ?  |
