@@ -3,10 +3,10 @@ package BJ_Practice;
 import java.io.*;
 
 public class BJ_10989 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		try {
+		
 			int N = Integer.parseInt(br.readLine());
 
 			int[] cnt = new int[10000];
@@ -23,7 +23,6 @@ public class BJ_10989 {
 			}
 			bw.close();
 			br.close();
-		} catch (Exception e) {
-		}
+		
 	}
 }
