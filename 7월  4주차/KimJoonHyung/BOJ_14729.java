@@ -3,7 +3,6 @@ package com.java;
 import java.util.Scanner;
 
 public class BOJ_14729 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -12,7 +11,6 @@ public class BOJ_14729 {
 		for(int i=0;i<n;i++) {
 			score[i] = sc.nextDouble();		
 		}
-		
 		quickSort(score);
 	}
 	
