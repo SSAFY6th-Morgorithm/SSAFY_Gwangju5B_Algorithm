@@ -18,7 +18,6 @@ public class BOJ_2750 {
         for(int data:arr){
             System.out.println(data);
         }
-
 	}
 	
 	public static void sort(int a[]) {
