@@ -28,6 +28,7 @@ public class BJ_G3_1300 {
 		while (s <= e) {
 			long mid = (s + e) / 2;
 			long cnt = underCounter(mid);
+			
 			if (cnt >= K) {
 				ans = mid;
 				e = mid - 1;

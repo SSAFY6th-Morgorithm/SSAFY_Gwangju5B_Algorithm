@@ -23,6 +23,7 @@ public class BJ_S4_10816 {
 				s = mid + 1;
 			}
 		}
+		
 		s = 0;
 		e = arr.length - 1;
 
