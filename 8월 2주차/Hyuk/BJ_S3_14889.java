@@ -7,7 +7,7 @@ public class BJ_S3_14889 {
 	static int N;
 	static int[][] data;
 	static boolean[] select;
-	
+
 	static int min = Integer.MAX_VALUE;
 
 	static void Combination(int cnt, int start) {
@@ -15,14 +15,12 @@ public class BJ_S3_14889 {
 			min = Math.min(min, getAbility());
 			return;
 		}
-
 		for (int i = start; i <= N; i++) {
 			if (select[i] == true)
 				continue;
 			select[i] = true;
 			Combination(cnt + 1, i + 1);
 			select[i] = false;
-
 		}
 	}
 
@@ -46,7 +44,7 @@ public class BJ_S3_14889 {
 		StringBuilder sb = new StringBuilder();
 		try {
 			N = Integer.parseInt(br.readLine());
-			data = new int[N+1][N+1];
+			data = new int[N + 1][N + 1];
 			select = new boolean[N + 1];
 			for (int r = 1; r <= N; r++) {
 				StringTokenizer st = new StringTokenizer(br.readLine());
