@@ -7,20 +7,22 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/**
+ * DFS와 BFS*/
+
 public class BJ_S2_1260 {
 	static int[][] arr;
 	static boolean[] visited;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringTokenizer st = new StringTokenizer(br.readLine=());
 		
 		int N = Integer.parseInt(st.nextToken()); // 정점
 		int M = Integer.parseInt(st.nextToken()); // 간선
 		int V = Integer.parseInt(st.nextToken()); // 시작 정점
 		
 		arr = new int[N+1][N+1];
-		
 		
 		for (int i = 1; i <= M; i++) {
 			st = new StringTokenizer(br.readLine());
