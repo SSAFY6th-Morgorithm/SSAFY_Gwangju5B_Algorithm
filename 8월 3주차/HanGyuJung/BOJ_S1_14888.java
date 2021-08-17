@@ -30,14 +30,14 @@ public class BOJ_S1_14888 {
         }
 
         
-        dfs(num_arr[0], 1);
+        per(num_arr[0], 1);
         
 		System.out.println(MAX);
 		System.out.println(MIN);
  
 	}
  
-	public static void dfs(int num, int idx) {
+	public static void per(int num, int idx) {
 		if (idx == N) {
 			MAX = Math.max(MAX, num);
 			MIN = Math.min(MIN, num);
@@ -51,10 +51,10 @@ public class BOJ_S1_14888 {
  
 				switch (i) {
  
-				case 0:	dfs(num + num_arr[idx], idx + 1);	break;
-				case 1:	dfs(num - num_arr[idx], idx + 1);	break;
-				case 2:	dfs(num * num_arr[idx], idx + 1);	break;
-				case 3:	dfs(num / num_arr[idx], idx + 1);	break;
+				case 0:	per(num + num_arr[idx], idx + 1);	break;
+				case 1:	per(num - num_arr[idx], idx + 1);	break;
+				case 2:	per(num * num_arr[idx], idx + 1);	break;
+				case 3:	per(num / num_arr[idx], idx + 1);	break;
  
 				}
 				op_arr[i]++;
