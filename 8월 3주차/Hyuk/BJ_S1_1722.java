@@ -20,8 +20,9 @@ public class BJ_S1_1722 {
 			factorial *= s;
 		}
 		long value = num / factorial;
+
 		arr[index] = list.get((int) value);
-		list.remove((int)value);
+		list.remove((int) value);
 		extraction(N - 1, num - (value * factorial), arr, index + 1);
 		return arr;
 	}
@@ -38,7 +39,6 @@ public class BJ_S1_1722 {
 		cnt += factorial * i;
 		list.remove(i);
 		return backpro(N - 1, index + 1, cnt);
-
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -60,30 +60,24 @@ public class BJ_S1_1722 {
 		for (int i = 1; i <= N; i++) {
 			list.add(i);
 		}
-		switch(M) {
+
+		switch (M) {
 		case 1:
 			int[] arr = new int[N];
-			arr = extraction(N,a-1,arr,0);
-			for (int i = 0; i < arr.length ; i++) {
+			arr = extraction(N, a - 1, arr, 0);
+			for (int i = 0; i < arr.length; i++) {
 				sb.append(arr[i]).append(" ");
 			}
 			System.out.println(sb);
 			break;
 		case 2:
-			sb.append(backpro(N, 0, 0)+1);
+			sb.append(backpro(N, 0, 0) + 1);
 			System.out.println(sb);
 			break;
 		}
 	}
 }
-	
-	
-	
-	
-	
-	
-	
-	
+
 //	static boolean nextPermutation(int[] numbers) {
 //		int n = numbers.length;
 //

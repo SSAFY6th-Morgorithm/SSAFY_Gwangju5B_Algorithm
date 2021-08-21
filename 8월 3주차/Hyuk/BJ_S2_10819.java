@@ -28,6 +28,7 @@ public class BJ_S2_10819 {
 		return true;
 
 	}
+	
 
 	static void swap(int i, int j, int[] arr) {
 		int temp = arr[i];
@@ -35,14 +36,16 @@ public class BJ_S2_10819 {
 		arr[j] = temp;
 	}
 	
+
 	static int calc(int[] arr) {
-		int cnt=0;
-		for(int i=1; i<arr.length; i++) {
-			cnt += Math.abs(arr[i-1]-arr[i]);
+		int cnt = 0;
+		for (int i = 1; i < arr.length; i++) {
+			cnt += Math.abs(arr[i - 1] - arr[i]);
 		}
-		
+
 		return cnt;
 	}
+	
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -55,11 +58,15 @@ public class BJ_S2_10819 {
 		for (int i = 1; i <= N; i++) {
 			arr[i - 1] = Integer.parseInt(st.nextToken());
 		}
+		
 		Arrays.sort(arr);
+		
+		
 		do {
 			int result = calc(arr);
 			max = max < result ? result : max;
-		}while(np(arr));
+		} while (np(arr));
+		
 		System.out.println(max);
 
 	}
