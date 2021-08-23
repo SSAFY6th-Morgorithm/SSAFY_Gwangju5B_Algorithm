@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="7월  4주차/eunji"/>
+	<classpathentry kind="src" path="7월  4주차/HanGyuJung"/>
+	<classpathentry kind="src" path="8월 1주차/eunji"/>
+	<classpathentry kind="src" path="8월 1주차/HanGyuJung"/>
+	<classpathentry kind="src" path="8월 2주차/HanGyuJung"/>
+	<classpathentry kind="src" path="8월 4주차/HanGyuJung"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
