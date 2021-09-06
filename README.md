@@ -10,10 +10,9 @@
 | 9월 1주차  | 그래프 |
 
 ## 📘&nbsp; Member
- -[@dmswl0311 ](https://github.com/dmswl0311 )
- -[@dmswl0311 ](https://github.com/dmswl0311 )
- -[@Hyuk9606](https://github.com/Hyuk9606)
- -[@hwangseonju](https://github.com/hwangseonju)
- -[@jiyeong-yun](https://github.com/jiyeong-yun)
- -[@a2456542](https://github.com/a2456542)
- -[@gitGyu](https://github.com/hangyujung )
+ -[@dmswl0311 ](https://github.com/dmswl0311 )  <br>
+ -[@Hyuk9606](https://github.com/Hyuk9606) <br>
+ -[@hwangseonju](https://github.com/hwangseonju) <br>
+ -[@jiyeong-yun](https://github.com/jiyeong-yun) <br>
+ -[@a2456542](https://github.com/a2456542) <br>
+ -[@gitGyu](https://github.com/hangyujung ) <br>
