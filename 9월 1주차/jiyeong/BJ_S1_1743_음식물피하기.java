@@ -54,10 +54,6 @@ public class BJ_S1_1743_음식물피하기 {
 			int nr = r+deltas[d][0];
 			int nc = c+deltas[d][1];
 			
-//			if(!isIn(nr,nc)) continue;
-//			if(visited[nr][nc]) continue;
-//			if(map[nr][nc] == 0) continue;
-			
 			if(isIn(nr,nc) && map[nr][nc]==1 && !visited[nr][nc]) {
 				visited[nr][nc] = true;
 				cnt++;
