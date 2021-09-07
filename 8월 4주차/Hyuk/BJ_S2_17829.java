@@ -6,6 +6,7 @@ import java.util.*;
 public class BJ_S2_17829 {
 	static int N;
 	static int[][] data;
+	
 	static int[][] pooling(int[][] data) {
 		if(data.length == 1) return data;
 		
