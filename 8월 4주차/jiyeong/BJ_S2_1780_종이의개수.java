@@ -44,6 +44,7 @@ public class BJ_S2_1780_종이의개수 {
 
 		int next = len / 3;
 
+		
 		// 상
 		recur(r, c, next);
 		recur(r, c + next, next);
