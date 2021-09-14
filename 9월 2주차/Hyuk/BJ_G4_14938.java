@@ -37,10 +37,11 @@ public class BJ_G4_14938 {
 		R = Integer.parseInt(st.nextToken());
 		int[] item = new int[N + 1];
 		st = new StringTokenizer(br.readLine());
+		
 		for (int i = 1; i <= N; i++) {
 			item[i] = Integer.parseInt(st.nextToken());
 		}
-		boolean[] isGetted = new boolean[N + 1];
+//		boolean[] isGetted = new boolean[N + 1];
 		Node[] adjArray = new Node[N + 1];
 
 		for (int i = 0; i < R; i++) {
