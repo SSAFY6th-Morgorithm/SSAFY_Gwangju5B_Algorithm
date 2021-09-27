@@ -10,6 +10,7 @@ public class BOJ_G5_숨바꼭질3 {
 	private static int K; 
 	private static boolean[] isVisited = new boolean[100001];
 	private static int answer;
+	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
