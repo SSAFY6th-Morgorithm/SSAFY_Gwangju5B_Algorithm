@@ -32,6 +32,8 @@ public class BJ_G4_20058 {
 		for (int i = 0; i < Q; i++) {
 			L[i] = Integer.parseInt(st.nextToken());
 		}
+		
+		
 		for (int i = 0; i < Q; i++) {
 			A = divide(L[i]);
 			A = melt();

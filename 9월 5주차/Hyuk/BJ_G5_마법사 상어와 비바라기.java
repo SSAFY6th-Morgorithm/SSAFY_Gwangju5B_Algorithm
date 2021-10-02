@@ -6,7 +6,7 @@ import java.util.*;
 public class BJ_G5_21610 {
 	static int N, M;
 	static int map[][];
-	static int deltas[][] = {{0,-1},{-1,-1},{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1}};
+	static int deltas[][] = { { 0, -1 }, { -1, -1 }, { -1, 0 }, { -1, 1 }, { 0, 1 }, { 1, 1 }, { 1, 0 }, { 1, -1 } };
 	static StringTokenizer st;
 
 	static List<RC> clouds = new ArrayList<>();
@@ -24,7 +24,7 @@ public class BJ_G5_21610 {
 		public String toString() {
 			return "\n[r=" + r + ", c=" + c + "]";
 		}
-		
+
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -56,7 +56,9 @@ public class BJ_G5_21610 {
 			st = new StringTokenizer(br.readLine());
 			int d = Integer.parseInt(st.nextToken()) - 1;
 			int s = Integer.parseInt(st.nextToken());
+			
 			int size = clouds.size();
+			
 			for (int j = 0; j < size; j++) {
 				RC temp = clouds.get(j);
 				temp.r = (temp.r + deltas[d][0] * s + N * 51) % N;
@@ -68,34 +70,35 @@ public class BJ_G5_21610 {
 				RC temp = clouds.get(j);
 				int cnt = 0;
 				for (int delta = 0; delta < 4; delta++) {
-					int nr = temp.r + deltas[delta*2+1][0];
-					int nc = temp.c + deltas[delta*2+1][1];
-					if(isIn(nr,nc) && map[nr][nc] > 0) {
+					int nr = temp.r + deltas[delta * 2 + 1][0];
+					int nc = temp.c + deltas[delta * 2 + 1][1];
+					if (isIn(nr, nc) && map[nr][nc] > 0) {
 						cnt++;
 					}
 				}
-				map[temp.r][temp.c]+=cnt;
+				map[temp.r][temp.c] += cnt;
 			}
-			for (int j = 0; j < size ; j++) {
+			
+			for (int j = 0; j < size; j++) {
 				RC temp = clouds.get(j);
 				map[temp.r][temp.c] -= 1000;
 			}
+			
 			clouds.clear();
-			for (int r = 0; r < N ; r++) {
-				for (int c = 0; c < N ; c++) {
-					if(map[r][c] >=2) {
-						clouds.add(new RC(r,c));
-						map[r][c]-=2;
-					}
-					else if(map[r][c] < -500) {
+			for (int r = 0; r < N; r++) {
+				for (int c = 0; c < N; c++) {
+					if (map[r][c] >= 2) {
+						clouds.add(new RC(r, c));
+						map[r][c] -= 2;
+					} else if (map[r][c] < -500) {
 						map[r][c] += 1000;
 					}
 				}
 			}
 		}
 		int answer = 0;
-		for (int r = 0; r < N ; r++) {
-			for (int c = 0; c < N ; c++) {
+		for (int r = 0; r < N; r++) {
+			for (int c = 0; c < N; c++) {
 				answer += map[r][c];
 			}
 		}
@@ -106,4 +109,3 @@ public class BJ_G5_21610 {
 		return r >= 0 && r < N && c >= 0 && c < N;
 	}
 }
-
