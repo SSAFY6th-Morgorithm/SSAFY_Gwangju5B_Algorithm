@@ -77,7 +77,7 @@ public class BJ_G4_1600_말이되고픈원숭이 {
 			int nc = cur.c + deltas[d][1];
 
 			if(isIn(nr,nc) && map[nr][nc] == 0) { // 땅이면 
-				 int horse = 0;
+				 int horse;
 				 if(isMonkey) {
 					 horse = cur.k;
 				 }else { // 말로 오면 횟수 증가
