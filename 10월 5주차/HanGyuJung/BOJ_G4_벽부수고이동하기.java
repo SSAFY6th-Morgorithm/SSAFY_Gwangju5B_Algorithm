@@ -41,7 +41,7 @@ public class BOJ_G4_벽부수고이동하기 {
 		
 		Queue<int[]> q = new LinkedList<>();
 		while (!walls.isEmpty()) {
-			int step=1;
+			int step=1; //이동거리
 			boolean[][] visited = new boolean[R][C];
 			int[] xWall = walls.remove(0);
 			map[xWall[0]][xWall[1]] = 0; // 일단 벽 하나는 허물기
