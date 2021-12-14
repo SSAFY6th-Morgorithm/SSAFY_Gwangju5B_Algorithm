@@ -32,8 +32,8 @@ public class BOJ_G4_알고스팟 {
 			//StringBuilder sb = new StringBuilder();
 	        StringTokenizer st = new StringTokenizer(br.readLine());
 	        
-	        R = Integer.parseInt(st.nextToken()); // 행
-	        C = Integer.parseInt(st.nextToken()); // 열
+	        C = Integer.parseInt(st.nextToken()); // 행
+	        R = Integer.parseInt(st.nextToken()); // 열
 	        
 	        map = new int[R+1][C+1];
 	        dist = new int[R+1][C+1];
