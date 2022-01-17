@@ -25,10 +25,102 @@
 
 
 ## 📘&nbsp; Member
- -[@dmswl0311 ](https://github.com/dmswl0311 )  <br>
+<table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/hangyujung">
+          <img src="https://avatars.githubusercontent.com/u/52170581?v=4" alt="한규정 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/dmswl0311">
+          <img src="https://avatars.githubusercontent.com/u/48826021?v=4" alt="조은지 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Hyuk9606">
+          <img src="https://avatars.githubusercontent.com/u/87606735?v=4" alt="임혁 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/jiyeong-yun">
+          <img src="https://avatars.githubusercontent.com/u/70522500?v=4" alt="윤지영 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/hwangseonju">
+          <img src="https://avatars.githubusercontent.com/u/55452206?v=4" alt="황선주 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/a2456542">
+          <img src="https://avatars.githubusercontent.com/u/70923021?v=4" alt="김준형 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Doppio1101">
+          <img src="https://avatars.githubusercontent.com/u/74235048?v=4" alt="장점훈 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/sangwoo420">
+          <img src="https://avatars.githubusercontent.com/u/31755437?v=4" alt="박상우 프로필" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/hangyujung">
+          한규정<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/dmswl0311">
+          조은지<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Hyuk9606">
+          임혁<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/jiyeong-yun">
+          윤지영<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/hwangseonju">
+          황선주<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/a2456542">
+          김준형<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Doppio1101">
+          장정훈<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/sangwoo420">
+          박상우<br />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+  
+
+<!--  -[@dmswl0311 ](https://github.com/dmswl0311 )  <br>
  -[@Hyuk9606](https://github.com/Hyuk9606) <br>
  -[@hwangseonju](https://github.com/hwangseonju) <br>
  -[@jiyeong-yun](https://github.com/jiyeong-yun) <br>
  -[@a2456542](https://github.com/a2456542) <br>
  -[@gitGyu](https://github.com/hangyujung ) <br>
- -[@sangwoo420](https://github.com/sangwoo420 ) <br>
+ -[@sangwoo420](https://github.com/sangwoo420 ) <br> -->
+ 
+
