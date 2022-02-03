@@ -28,14 +28,14 @@ public class bj_17129 {
 			String str = br.readLine();
 			for(int c=0; c<m; c++) {
 				land[r][c] = str.charAt(c)-'0';
-				if(land[r][c]==2) {
+				if(land[r][c]==2) {		// 윌리암슨 식구 위치
 					queue.offer(new Dot(r,c,0));
 					visited[r][c] = true;
 				}
 			}
 		}
 		
-		int[][] deltas = {{-1,0},{1,0},{0,-1},{0,1}};
+		int[][] deltas = {{-1,0},{1,0},{0,-1},{0,1}};	// 상하좌우
 		long result = 0;
 		while(!queue.isEmpty()) {
 			Dot current = queue.poll();
