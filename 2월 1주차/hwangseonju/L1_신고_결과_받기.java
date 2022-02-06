@@ -1,8 +1,7 @@
-package Kakao;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.StringTokenizer;
 
 public class L1_신고_결과_받기 {
@@ -16,7 +15,7 @@ public class L1_신고_결과_받기 {
 		String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
 		int k = 2;
 		
-		HashMap<String, HashMap<String, Integer>> cnt = new HashMap<>();
+		HashMap<String, HashMap<String, Integer>> cnt = new LinkedHashMap<>();
 		
 		for(int i=0; i<id_list.length; i++){
             cnt.put(id_list[i], new HashMap<>());
@@ -31,8 +30,7 @@ public class L1_신고_결과_받기 {
             cnt.get(caution).put(user, cnt.get(caution).size()+1);
         }
         
-        int[] answer = {};
-        answer = new int[id_list.length];
+        int[] answer = new int[id_list.length];
         for(int i=0; i<id_list.length; i++){
             if(cnt.get(id_list[i]).size()>=k){
                 for(int u=0; u<id_list.length; u++){
