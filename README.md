@@ -36,6 +36,7 @@
 | 2월 2주차  | 자유 |
 | 2월 3주차  | :construction:프로젝트 휴식:construction:|
 | 2월 4주차  | 자유 |
+| 2월 5주차  | 맵 |
 
 
 ## :relaxed: Member
