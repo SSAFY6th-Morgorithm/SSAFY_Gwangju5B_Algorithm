@@ -40,6 +40,9 @@
 | 3월 1주차  | 구현 |
 | 3월 2주차  | DP |
 | 3월 3주차  | 순열/조합/부분집합 |
+| 3월 4주차  | 자유 |
+| 3월 5주차  | 자유 |
+| 4월 1주차  | :construction:프로젝트 휴식:construction: |
 
 ## :relaxed: Member
 <table>
