@@ -43,6 +43,9 @@
 | 3월 4주차  | 자유 |
 | 3월 5주차  | 자유 |
 | 4월 1주차  | :construction:프로젝트 휴식:construction: |
+| 4월 2주차  | 자유 |
+| 4월 3주차  | 자유 |
+| 4월 4주차  | 구현 |
 
 ## :relaxed: Member
 <table>
