@@ -83,12 +83,17 @@
       </td>
       <td align="center">
         <a href="https://github.com/Doppio1101">
-          <img src="https://avatars.githubusercontent.com/u/74235048?v=4" alt="장점훈 프로필" />
+          <img src="https://avatars.githubusercontent.com/u/74235048?v=4" alt="장정훈 프로필" />
         </a>
       </td>
       <td align="center">
         <a href="https://github.com/sangwoo420">
           <img src="https://avatars.githubusercontent.com/u/31755437?v=4" alt="박상우 프로필" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/tomy9729">
+          <img src="https://avatars.githubusercontent.com/u/52230306?v=4" alt="김현수 프로필" />
         </a>
       </td>
     </tr>
@@ -131,6 +136,11 @@
       <td align="center">
         <a href="https://github.com/sangwoo420">
           박상우<br />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/tomy9729">
+          김현수<br />
         </a>
       </td>
     </tr>
