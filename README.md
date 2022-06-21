@@ -76,9 +76,10 @@
 
   <br />
 
-[@jiyeong-yun](https://github.com/jiyeong-yun) 윤지영 <br>
+[@jiyeong-yun](https://github.com/jiyeong-yun) 윤지영🍖<br>
 [@gitGyu](https://github.com/hangyujung ) 한규정 <br>
 [@Doppio1101](https://github.com/Doppio1101 ) 장정훈 <br>
+
 
 <!--  -[@dmswl0311 ](https://github.com/dmswl0311 )  <br>
  -[@Hyuk9606](https://github.com/Hyuk9606) <br>
